@@ -1,4 +1,4 @@
-#import nester
+import nester
 
 movies=["meaning of life",1975,
         "life of brain",1979,
@@ -34,4 +34,4 @@ def print_list(mlist):
 print_list(movies)
 
 print('\nimported function\n')
-#nester.print_lol(movies)
+nester.print_lol(movies)
